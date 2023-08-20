@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
   <header class="header1440">
@@ -30,7 +30,7 @@
       <svg xmlns="http://www.w3.org/2000/svg" width="21" height="47" class="logo__slash" viewBox="0 0 21 47" fill="none">
         <path fill-rule="evenodd" clip-rule="evenodd" d="M15.1752 0H21L5.82482 47H0L15.1752 0Z" fill="#F0145A"/>
       </svg>
-      <span class="logo__span">publications</span>
+      <span class="logo__span">about us</span>
     </div>
     <div class="header1440__right right">
       <div class="right__contacts contacts">
@@ -63,11 +63,11 @@
       </div>
       <nav class="right__nav nav">
         <ul class="nav__list list">
-          <li class="list__item"><a href="pages/about.html" class="list__item-link">about us</a></li>
-          <li class="list__item"><a href="pages/services.html" class="list__item-link">services</a></li>
-          <li class="list__item"><a href="pages/teampage.html" class="list__item-link">team</a></li>
-          <li class="list__item1"><a href="#" class="list__item1-link">publications</a></li>
-          <li class="list__item"><a href="pages/contact.html" class="list__item-link">contact</a></li>
+          <li class="list__item"><a href="/pages/about.html" class="list__item-link">about us</a></li>
+          <li class="list__item"><a href="/pages/services.html" class="list__item-link">services</a></li>
+          <li class="list__item1"><a href="#" class="list__item1-link">team</a></li>
+          <li class="list__item"><a href="/pages/publ.html" class="list__item-link">publications</a></li>
+          <li class="list__item"><a href="/pages/contact.html" class="list__item-link">contact</a></li>
         </ul>
       </nav>
     </div>
@@ -104,7 +104,7 @@
         <svg width="11" height="26" xmlns="http://www.w3.org/2000/svg" class="logo__slash" viewBox="0 0 21 47" fill="none">
           <path fill-rule="evenodd" clip-rule="evenodd" d="M15.1752 0H21L5.82482 47H0L15.1752 0Z" fill="#F0145A"/>
         </svg>
-        <span class="logo__span">publications</span>
+        <span class="logo__span">about us</span>
       </div>
       <svg width="32" height="32" class="pinned__hamb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 33" fill="none">
         <path d="M7 10.5H25" stroke="#323264" stroke-width="2"/>
@@ -113,67 +113,100 @@
       </svg>
     </div>
   </header>
-    <main class="publ-main">
-        <section class="publ-main__segmented segmented">
-            <div class="segmented__item1">
-                <h4 class="segmented__item1-h4">news</h4>
-            </div>
-            <div class="segmented__item2">
-                <h4 class="segmented__item2-h4">articles</h4>
-            </div>
-        </section>
-        <section class="publ-main__content content">
-          <ul class="content__grid grid">
-            <li class="grid__item1 item1">
-              <div class="item1__img"></div>
-              <div class="item1__label">
-                <h4 class="item1__label-h4"><a class="item1__label-h4-link" href="#" target="_self">Equity associate</a></h4>
-                <span class="item1__label-span">April 22</span>
-                <p class="item1__label-p">I'm a jun on projects. I am a co-owner of a law firm. How it happened. Before entering my parents told me that if I…</p>
-              </div>
+    <main class="team-main">
+        <h1 class="team-main__h1">We are used to taking responsibility and always guarantee honest, timely assistance, even in situations where most are powerless.</h1>
+        <ul class="team-main__team-list team-list">
+            <li class="team-list__item">
+                <img class="team-list__item-img" src="/img/team1.png" alt="1">
+                <div class="team-list__item-label label">
+                    <div class="label-title title">
+                        <span class="title__name">Alexander Alexandrovsky</span>
+                        <span class="title__job">Managing partner</span>
+                    </div>
+                    <a href="#"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Button / More">
+                        <circle id="Ellipse" cx="16" cy="16" r="16" fill="#F5F5FA"/>
+                        <path id="Vector" d="M13.5 23.5L20.5 16.5L13.5 9.5" stroke="#24A3FF" stroke-width="2"/>
+                        </g>
+                    </svg></a>
+                </div>
             </li>
-            <li class="grid__item2 item2">
-              <div class="item2__img"></div>
-              <div class="item2__label">
-                <h4 class="item2__label-h4"><a class="item2__label-h4-link" href="pages/publ_entry.html" target="_self">Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR</a></h4>
-                <span class="item2__label-span">September 29</span>
-                <p class="item2__label-p">And why the recovery of 50 million euros could be a fateful precedent According to Mind.ua January 21 National Commission for Data Protection.</p>
-              </div>
+            <li class="team-list__item">
+                <img class="team-list__item-img" src="/img/team2.png" alt="2">
+                <div class="team-list__item-label label">
+                    <div class="label-title title">
+                        <span class="title__name">Evgeny Patrikov</span>
+                        <span class="title__job">Equity partner, Attorney-at-law</span>
+                    </div>
+                    <a href="#"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g id="Button / More">
+                      <circle id="Ellipse" cx="16" cy="16" r="16" fill="#F5F5FA"/>
+                      <path id="Vector" d="M13.5 23.5L20.5 16.5L13.5 9.5" stroke="#24A3FF" stroke-width="2"/>
+                      </g>
+                  </svg></a>
+                </div>
             </li>
-            <li class="grid__item3 item3">
-              <div class="item3__img"></div>
-              <div class="item3__label">
-                <h4 class="item3__label-h4"><a class="item3__label-h4-link" href="#" target="_self">Millennial Testament</a></h4>
-                <span class="item3__label-span">August 19</span>
-                <p class="item3__label-p">What and how modern vloggers, opinion leaders and crypto-millionaires will inherit A typical legacy of the Ukrainian generation X looks like this: an apartment in…</p>
-              </div>
+            <li class="team-list__item">
+                <img class="team-list__item-img" src="/img/team3.png" alt="3">
+                <div class="team-list__item-label label">
+                    <div class="label-title title">
+                        <span class="title__name">Vladislav Melnik</span>
+                        <span class="title__job">Associate</span>
+                    </div>
+                    <a href="#"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g id="Button / More">
+                      <circle id="Ellipse" cx="16" cy="16" r="16" fill="#F5F5FA"/>
+                      <path id="Vector" d="M13.5 23.5L20.5 16.5L13.5 9.5" stroke="#24A3FF" stroke-width="2"/>
+                      </g>
+                  </svg></a>
+                </div>
             </li>
-            <li class="grid__item3 item4">
-              <div class="item4__img"></div>
-              <div class="item4__label">
-                <h4 class="item4__label-h4"><a class="item4__label-h4-link" href="#" target="_self">Language Law: How to Make Your Website Relevant</a></h4>
-                <span class="item4__label-span">August 19</span>
-                <p class="item4__label-p">Natalia Kyryk, head of content studio Wordfactory.ua First, it's beautiful! This is the number one argument in favor of the Ukrainian-language site. Secondly, it is effective. IN…</p>
-              </div>
+            <li class="team-list__item">
+                <img class="team-list__item-img" src="/img/team4.png" alt="4">
+                <div class="team-list__item-label label">
+                    <div class="label-title title">
+                        <span class="title__name">Sergey Binn</span>
+                        <span class="title__job">Associate</span>
+                    </div>
+                    <a href="#"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g id="Button / More">
+                      <circle id="Ellipse" cx="16" cy="16" r="16" fill="#F5F5FA"/>
+                      <path id="Vector" d="M13.5 23.5L20.5 16.5L13.5 9.5" stroke="#24A3FF" stroke-width="2"/>
+                      </g>
+                  </svg></a>
+                </div>
             </li>
-            <li class="grid__item3 item5">
-              <div class="item5__img"></div>
-              <div class="item5__label">
-                <h4 class="item5__label-h4"><a class="item5__label-h4-link" href="#" target="_self">Reimbursement of the child's tuition fees in kindergarten and school</a></h4>
-                <span class="item5__label-span">February 5, 2018</span>
-                <p class="item5__label-p">What we are talking about In June this year, the Verkhovna Rada amended the Tax Code of Ukraine. From now on, parents who receive an official…</p>
-              </div>
+            <li class="team-list__item">
+                <img class="team-list__item-img" src="/img/team5.png" alt="5">
+                <div class="team-list__item-label label">
+                    <div class="label-title title">
+                        <span class="title__name">Оксана Кобзарь</span>
+                        <span class="title__job">Equity partner, Attorney-at-law</span>
+                    </div>
+                    <a href="/pages/team_entry.html" target="_blank"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Button / More">
+                        <circle id="Ellipse" cx="16" cy="16" r="16" fill="#F5F5FA"/>
+                        <path id="Vector" d="M13.5 23.5L20.5 16.5L13.5 9.5" stroke="#24A3FF" stroke-width="2"/>
+                        </g>
+                    </svg></a>
+                </div>
             </li>
-            <li class="grid__item3 item6">
-              <div class="item6__label">
-                <h4 class="item6__label-h4"><a class="item6__label-h4-link" href="#" target="_self">Currency control is dead, long live currency control!</a></h4>
-                <span class="item6__label-span">June 14, 2018</span>
-                <p class="item6__label-p">Experts hold conferences, round tables and other events on "liberalization of currency legislation." Lawyers-experts-novelists rub their fingers about "ctrl + c / ctrl + v".</p>
-              </div>
+            <li class="team-list__item">
+                <img class="team-list__item-img" src="/img/team6.png" alt="6">
+                <div class="team-list__item-label label">
+                    <div class="label-title title">
+                        <span class="title__name">Julia Wolk</span>
+                        <span class="title__job">Associate, Attorney-at-law</span>
+                    </div>
+                    <a href="#"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g id="Button / More">
+                      <circle id="Ellipse" cx="16" cy="16" r="16" fill="#F5F5FA"/>
+                      <path id="Vector" d="M13.5 23.5L20.5 16.5L13.5 9.5" stroke="#24A3FF" stroke-width="2"/>
+                      </g>
+                  </svg></a>
+                </div>
             </li>
-          </ul>
-          <button class="content__button"><a href="#" class="content__button-link" target="_self">More publications</a></button>
-        </section>
+        </ul>
     </main>
     <footer class="footer">
       <div class="footer__content content">
